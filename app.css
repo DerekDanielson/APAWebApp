@@ -3,15 +3,28 @@
     flex-wrap: wrap;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #homepage {
     height: 100vh;
-    background-color: teal;
+    background-color: #FFE2AD;
+}
+
+#logo {
+    justify-content: flex-start;
+    height: 25rem;
 }
 
 #officers {
     height: 100vh;
     background-color: burlywood;
 }
+
+#12989A
+#D03815
 
 #membership {
     height: 100vh;
@@ -51,4 +64,9 @@
 #contact {
     height: 100vh;
     background-color: burlywood;
+}
+
+#logo2 {
+    height: 20rem;
+    justify-self: center;
 }
