@@ -1,3 +1,54 @@
 .container {
+    display: flex;
     flex-wrap: wrap;
+}
+
+#homepage {
+    height: 100vh;
+    background-color: teal;
+}
+
+#officers {
+    height: 100vh;
+    background-color: burlywood;
+}
+
+#membership {
+    height: 100vh;
+    background-color: teal;
+}
+
+#certification {
+    height: 100vh;
+    background-color: burlywood;
+}
+
+#scholarship {
+    height: 100vh;
+    background-color: teal;
+}
+
+#sites {
+    height: 100vh;
+    background-color: burlywood;
+}
+
+#jobs {
+    height: 100vh;
+    background-color: teal;
+}
+
+#community {
+    height: 100vh;
+    background-color: burlywood;
+}
+
+#sponsors {
+    height: 100vh;
+    background-color: teal;
+}
+
+#contact {
+    height: 100vh;
+    background-color: burlywood;
 }
