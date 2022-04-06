@@ -56,6 +56,10 @@ body {
     background-color: burlywood;
 }
 
+#dvrclogo {
+    height: 10rem;
+}
+
 #sponsors {
     height: 100vh;
     background-color: teal;
