@@ -18,6 +18,12 @@ body {
     height: 25rem;
 }
 
+#topImage {   
+    height: 20rem;
+    width: 50rem;
+    padding-bottom: 5rem;
+}
+
 #officers {
     height: 100vh;
     background-color: burlywood;
