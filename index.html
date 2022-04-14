@@ -13,31 +13,46 @@
     <div id="homepage">
         
         <!--Logo-->
+        <div>
         <img id="logo" src="\logos\croppedLogo.png", alt="APA logo">
+        </div>
         
+        <div>
         <img id="topImage" src="\images\skyline.jpg">
+        </div>
+
+
 
         <!--Nav bar-->
-        <div>
-            <!--Buttons-->
-            <button>Home</button>
-            
-            <button>About</button>
+        <nav>
+            <div>
                 <ul>
-                    <li>Officers & Board Members</li>
-                    <li>ByLaws</li>  <!--Seperate page!!!-->
-                    <li>Community Involvement</li>
+                    <li><a href="index.html">Home</a></li>
+                
+                    <div class="dropdown">
+                        <button class="dropbtn">About</button>
+                            <div class="dropdown-content">
+                                <li><a href="#">Officers & Board Members</a></li>
+                                <li><a href="bylaws.html">ByLaws</a></li>       <!--CREATE SEPERATE PAGE!-->
+                                <li><a href="#">Community Involvement</a></li>
+                            </div>
+                    </div>    
+                    
+                    <div class="dropdown">
+                        <button class="dropbtn">Resources</button>
+                            <div class="dropdown-content">
+                                <li><a href="#">Job Board</a></li>
+                                <li><a href="#">Membership</a></li>
+                                <li><a href="#">Certification</a></li>
+                                <li><a href="#">Scholarship</a></li>
+                                <li><a href="#">Useful Sites</a></li>
+                            </div>
+                    </div>
             
-            <button>Resources</button>
-                <ul>
-                    <li>Job Board</li>
-                    <li>Membership</li>
-                    <li>Certification</li>
-                    <li>Scholarship</li>
-                    <li>Useful sites</li>
-                    <li>Contact</li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-        </div>
+            </div>
+        </nav>
 
         
         
